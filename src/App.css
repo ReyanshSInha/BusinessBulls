@@ -1,0 +1,107 @@
+.App{
+  /* background-color: blue; */
+  width: 100vw;
+  height: 100vh;
+}
+
+.LoginPage {
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+  overflow: hidden;
+}
+
+.LoginImage {
+  margin-left: 100px;
+}
+
+.LoginCard {
+  margin-right: 300px;
+
+}
+
+.LoginArea {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border: 5px solid #2A2F4F;
+  border-radius: 25px;
+  padding: 20px;
+  width: 400px;
+  height: 380px;
+}
+
+input {
+  height: 60px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.loginUser {
+  background: #2A2F4F;
+  height: 40px;
+  color: white;
+  text-align: center;
+  height: 30px;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.signupLink {
+  cursor: pointer;
+  color: #2A2F4F;
+}
+
+.RegisterPage {
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+  overflow: hidden;
+}
+
+.RegisterCard {
+  margin-right: 300px;
+}
+
+.RegisterArea {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  align-items: center;
+  border: 5px solid #2A2F4F;
+  border-radius: 25px;
+  padding: 20px;
+  width: 600px;
+  height: 500px;
+}
+
+.RegisterField {
+  width: 220px;
+  margin: 0 20px;
+}
+
+.RegisterUser {
+  background: #2A2F4F;
+  height: 40px;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 400px;
+  align-self: flex-start;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
